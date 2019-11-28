@@ -68,6 +68,7 @@ namespace conexao
             // lblCodigo
             // 
             this.lblCodigo.AutoSize = true;
+            this.lblCodigo.BackColor = System.Drawing.Color.Transparent;
             this.lblCodigo.Location = new System.Drawing.Point(44, 20);
             this.lblCodigo.Name = "lblCodigo";
             this.lblCodigo.Size = new System.Drawing.Size(40, 13);
@@ -78,6 +79,7 @@ namespace conexao
             // lblNome
             // 
             this.lblNome.AutoSize = true;
+            this.lblNome.BackColor = System.Drawing.Color.Transparent;
             this.lblNome.Location = new System.Drawing.Point(44, 60);
             this.lblNome.Name = "lblNome";
             this.lblNome.Size = new System.Drawing.Size(35, 13);
@@ -104,6 +106,7 @@ namespace conexao
             // lblDtNasc
             // 
             this.lblDtNasc.AutoSize = true;
+            this.lblDtNasc.BackColor = System.Drawing.Color.Transparent;
             this.lblDtNasc.Location = new System.Drawing.Point(44, 132);
             this.lblDtNasc.Name = "lblDtNasc";
             this.lblDtNasc.Size = new System.Drawing.Size(89, 13);
@@ -114,6 +117,7 @@ namespace conexao
             // lblCPF
             // 
             this.lblCPF.AutoSize = true;
+            this.lblCPF.BackColor = System.Drawing.Color.Transparent;
             this.lblCPF.Location = new System.Drawing.Point(44, 98);
             this.lblCPF.Name = "lblCPF";
             this.lblCPF.Size = new System.Drawing.Size(27, 13);
@@ -193,6 +197,7 @@ namespace conexao
             // lblTelefone
             // 
             this.lblTelefone.AutoSize = true;
+            this.lblTelefone.BackColor = System.Drawing.Color.Transparent;
             this.lblTelefone.Location = new System.Drawing.Point(44, 173);
             this.lblTelefone.Name = "lblTelefone";
             this.lblTelefone.Size = new System.Drawing.Size(49, 13);
@@ -236,6 +241,7 @@ namespace conexao
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Location = new System.Drawing.Point(46, 363);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
@@ -255,6 +261,7 @@ namespace conexao
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Location = new System.Drawing.Point(46, 317);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
@@ -274,6 +281,7 @@ namespace conexao
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Location = new System.Drawing.Point(45, 232);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
@@ -293,6 +301,7 @@ namespace conexao
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Location = new System.Drawing.Point(45, 279);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
@@ -302,7 +311,7 @@ namespace conexao
             // 
             // txtCEP
             // 
-            this.txtCEP.BackColor = System.Drawing.SystemColors.Info;
+            this.txtCEP.BackColor = System.Drawing.SystemColors.Window;
             this.txtCEP.Location = new System.Drawing.Point(141, 199);
             this.txtCEP.Margin = new System.Windows.Forms.Padding(2);
             this.txtCEP.Name = "txtCEP";
@@ -313,6 +322,7 @@ namespace conexao
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Location = new System.Drawing.Point(44, 202);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
@@ -332,6 +342,7 @@ namespace conexao
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Location = new System.Drawing.Point(446, 351);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(71, 13);
@@ -341,6 +352,7 @@ namespace conexao
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Location = new System.Drawing.Point(636, 351);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(44, 13);
@@ -365,6 +377,7 @@ namespace conexao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txtNumero);
             this.Controls.Add(this.txtComplemento);
@@ -398,6 +411,7 @@ namespace conexao
             this.Controls.Add(this.lblNome);
             this.Controls.Add(this.lblCodigo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "FrmCadastroCliente";
             this.Text = "   CadastrarCliente";
             this.Load += new System.EventHandler(this.FrmCadastroCliente_Load);
